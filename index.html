@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Thanh Toán</title>
+       <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Thanh Toán</h1>
+        </div>
+    
+        <div class="product-list">
+            <h2 class="section-title">Sản phẩm của bạn</h2>
+            <div class="product-item">
+                <div class="product-info">
+                    <p class="product-name">ÁO MU MÃI ĐỈNH</p>
+                    <p class="product-price">Giá: 100,000 VND</p>
+                </div>
+                <div>
+                    <p>Số lượng: 1</p>
+                </div>
+            </div>
+        </div>
+        
+
+        <h2 class="section-title">Địa chỉ giao hàng</h2>
+        <input type="text" class="input-field" placeholder="Họ và tên">
+        <input type="text" class="input-field" placeholder="Địa chỉ">
+        <input type="text" class="input-field" placeholder="Số điện thoại">
+
+
+        <h2 class="section-title">Phương thức thanh toán</h2>
+        <input type="radio" name="payment-method" value="cash" checked> Thanh toán khi nhận hàng <br>
+        <input type="radio" name="payment-method" value="credit"> Thẻ tín dụng/Thẻ ghi nợ
+
+  
+        <div class="total">
+            Tổng cộng: 100,000,000 VND
+        </div>
+        <button class="btn-payment">Thanh toán ngay</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
